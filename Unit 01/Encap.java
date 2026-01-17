@@ -18,7 +18,7 @@ public class Encap {
         Student s = new Student();
         // System.out.println("Roll No: " + s.r);
         // System.out.println("Name: " + s.name);
-        s.getdata(101, "John Doe");
+        s.getdata(101, "Arvind");
         s.display();
     }
 }
