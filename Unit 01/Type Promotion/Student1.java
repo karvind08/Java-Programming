@@ -4,7 +4,7 @@ public class Student1 {
     static String collName = "MMMEC";
     static int stcount = 0;
 
-    void Student1(String n, int r) {
+    Student1(String n, int r) {
         this.name = n;
         this.roll = r;
         stcount++;
