@@ -1,6 +1,8 @@
 class Rectangle {
     int width;
     int length;
+    public int l;
+    public int w;
 
     void getdata(int x, int y) {
         length = x;

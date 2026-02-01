@@ -1,10 +1,12 @@
 public class Rectangle1 {
-    int l,w;
-    public static void main(String[] args) {
-        Rectangle R = new Rectangle();
-        R.getdata(10, 20);
-        int res = R.rectarea();
-        System.out.println("The area is " + res);
+    int l;
+    int w;
 
+    public static void main(String[] args) {
+        Rectangle1 R = new Rectangle1();
+        R.l = 5;
+        R.w = 4;
+        int res = R.l * R.w;
+        System.out.println("The area is " + res);
     }
 }
