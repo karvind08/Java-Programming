@@ -4,5 +4,10 @@ public class Relational1 {
         boolean res;
         res = a < 10;
         System.out.println(res);
+        // Testing double values with %
+        System.out.println(-7.4 % 5.3);
     }
 }
+
+
+ 
