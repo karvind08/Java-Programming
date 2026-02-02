@@ -1,6 +1,6 @@
 class Student {
     // private int r;
-    private String name;
+    // private String name;
 }
 
 public class Encapsulation2 {
