@@ -8,5 +8,6 @@ public class IntSizeCheck {
         System.out.println("The size of byte: " + Byte.BYTES);
         System.out.println("The size of short: " + Short.SIZE);
         System.out.println("The size of short: " + Short.BYTES);
+        System.out.println("The size of short: " + Long.BYTES);
     }
 }
