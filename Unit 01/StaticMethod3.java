@@ -5,6 +5,7 @@ class Hello {
 
     static void staticmathod2() {
         staticmathod1();
+        // nonstaticmethod(); we can not call nonstatic method in static method
         System.out.println("I am in staticmethod2");
     }
 
