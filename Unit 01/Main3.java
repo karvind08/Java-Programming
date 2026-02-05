@@ -10,7 +10,7 @@ public class Main3 {
         MyClass.greet("Arvind");
 
         // Calling via instance (possible, but not recommended)
-        MyClass obj = new MyClass();
-        obj.greet("Arvind");
+        // MyClass obj = new MyClass();
+        // obj.greet("Arvind");
     }
 }
