@@ -20,9 +20,9 @@ class Addition {
 
 public class Main5 {
     public static void main(String[] args) {
-        Addition obj1 = new Addition();
         Addition A1 = new Addition(10, 20);
         Addition A2 = new Addition(100, 200);
+        Addition obj1 = new Addition();
         int res = obj1.displaysum(A1, A2);
         System.out.println("The result is: " + res);
 
