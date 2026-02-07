@@ -12,10 +12,9 @@ class Child2 extends Parent2 {
 
 public class Overriding {
     public static void main(String[] args) {
+        // Child2 C = new Parent2();
         Parent2 P = new Parent2();
         P.display();
-        Child2 C = new Child2();
-        C.display();
 
     }
 }
