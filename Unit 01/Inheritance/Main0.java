@@ -7,6 +7,10 @@ class Parent {
     private void privatemethod() {
         System.out.println("I am in parentmethod() of Parent class");
     }
+
+    protected void protectdmethod() {
+        System.out.println("I am in protected method of Parent");
+    }
 }
 
 class Child extends Parent {
@@ -20,5 +24,6 @@ public class Main0 {
         Child C1 = new Child();
         C1.show();
         C1.display();
+        C1.protectdmethod();
     }
 }
