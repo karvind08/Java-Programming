@@ -1,6 +1,11 @@
 class Parent {
     void display() {
+        privatemethod();
         System.out.println("I am in Parent class");
+    }
+
+    private void privatemethod() {
+        System.out.println("I am in parentmethod() of Parent class");
     }
 }
 
@@ -15,7 +20,5 @@ public class Main0 {
         Child C1 = new Child();
         C1.show();
         C1.display();
-        Parent P = new Parent();
-        P.display();
     }
 }
