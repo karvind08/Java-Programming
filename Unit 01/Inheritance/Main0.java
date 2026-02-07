@@ -15,5 +15,7 @@ public class Main0 {
         Child C1 = new Child();
         C1.show();
         C1.display();
+        Parent P = new Parent();
+        P.display();
     }
 }
