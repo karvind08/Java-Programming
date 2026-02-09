@@ -10,11 +10,11 @@ class Test {
         System.out.println(a + " and " + b);
     }
 
-    int getsum(Test T1, Test T2) {
-        this.a = T1.a + T2.a;
-        this.b = T1.b + T2.b;
-        int r = a + b;
-        return (r);
+    Test getsum(Test T1, Test T2) {
+        Test T3 = new Test(0, 0);
+        T3.a = T1.a + T2.a;
+        T3.b = T1.b + T2.b;
+        return (T3);
     }
 }
 
@@ -24,8 +24,8 @@ public class Main8 {
         TO1.display();
         Test TO2 = new Test(100, 200);
         TO2.display();
-        int r = TO1.getsum(TO1, TO2);
-        System.out.println(r);
+        Test TO3 = TO1.getsum(TO1, TO2);
+        System.out.println(TO3.a + " and " + TO3.b);
 
     }
 
