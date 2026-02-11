@@ -6,14 +6,14 @@ class Parent {
 
 class Child extends Parent {
     void display() {
-        super.display();
+        // super.display();
         System.out.println("Child Class");
     }
 }
 
 public class Main {
     public static void main(String[] args) {
-        Child C1 = new Child();
+        Parent C1 = new Child();
         C1.display();
     }
 
