@@ -1,6 +1,6 @@
 public class Final1 {
     static final int MAX;
-    static {
+    Final1(){
         MAX = 100;
     }
 
