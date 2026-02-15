@@ -1,5 +1,5 @@
 public class Main3 {
-    public static int[] doMultiplication(int[] arr) {
+    public static int[] Multiply(int[] arr) {
         for (int i = 0; i < arr.length; i++) {
             arr[i] = arr[i] * 2;
         }
@@ -8,9 +8,9 @@ public class Main3 {
 
     public static void main(String[] args) {
         int myArray[] = { 1, 2, 3, 4, 5 };
-        int[] multiplyArr = doMultiplication(myArray);
+        int[] mul = Multiply(myArray);
         System.out.println("Array multiply by 2 is - ");
-        for (int i : multiplyArr) {
+        for (int i : mul) {
             System.out.print(i + " ");
         }
     }
