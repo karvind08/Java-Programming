@@ -23,8 +23,8 @@ public class RunningThread {
         ChildClass3 CC3 = new ChildClass3();
 
         // starting the new thread execution.
-        CC3.start();
-        CC2.start();
         CC1.start();
+        CC2.start();
+        CC3.start();
     }
 }
