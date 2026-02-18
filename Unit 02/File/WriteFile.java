@@ -9,7 +9,7 @@ public class WriteFile {
             FileWriter Writer = new FileWriter("myfile.txt");
 
             // Writing File
-            Writer.write("Files in Java are seriously good!!");
+            Writer.write("Hello World in Java!!");
             Writer.close();
 
             System.out.println("Successfully written.");
