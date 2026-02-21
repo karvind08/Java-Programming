@@ -2,6 +2,7 @@ public class Main6 {
     static void method() {
         int a = 0;
         int b = 10 / a;
+        System.out.println(b);
     }
 
     public static void main(String[] args) {
