@@ -1,3 +1,5 @@
+import java.util.Scanner;
+
 public class Main12 {
     static void divide(int a, int b) {
         if (b == 0) {
@@ -7,10 +9,18 @@ public class Main12 {
     }
 
     public static void main(String[] args) {
+        Scanner S = new Scanner(System.in);
+        System.out.println("Enter First Number: ");
+        int a = S.nextInt();
+        System.out.println("Enter Second Number: ");
+        int b = S.nextInt();
         try {
-            divide(10, 5);
+            divide(a, b);
         } catch (ArithmeticException e) {
             System.out.println("Caught exception: " + e.getMessage());
+        } finally {
+            S.close();
         }
     }
+
 }
