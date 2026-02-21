@@ -6,7 +6,7 @@ public class Main8 {
             int res = a / b;
             System.out.println("The result is: " + res);
         } catch (ArithmeticException e) {
-            System.out.println("Divison by zero not possible");
+            System.out.println(e.getMessage());
         } finally {
             System.out.println("End of Program");
         }
