@@ -6,13 +6,13 @@ class MyException extends Exception {
     }
 
     public String toString() {
-        return "MyException[" + a + "]";
+        return "The value " + a;
     }
 }
 
 public class Custom2 {
     static void display(int a) throws MyException {
-        System.out.println("Called(" + a + ")");
+        System.out.println(a);
         if (a > 10)
             throw new MyException(a);
         System.out.println("Normal Exit");
@@ -23,7 +23,7 @@ public class Custom2 {
             display(5);
             display(20);
         } catch (MyException e) {
-            System.out.println(e.getMessage());
+            System.out.println(e);
         }
     }
 }
