@@ -1,6 +1,6 @@
 // Propagation of Exceptions
 
-class PropagationExample {
+class Propagation {
 
     static void riskyDivision() throws ArithmeticException {
         int result = 10 / 0; // Will throw ArithmeticException
