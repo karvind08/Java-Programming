@@ -6,6 +6,8 @@ class Sample1 {
 
     public static void display() {
         System.out.println("Static fields and methods");
+        System.out.println(r);
+        System.out.println(name);
     }
 }
 
