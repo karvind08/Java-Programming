@@ -6,16 +6,22 @@ public class Main5 {
         System.out.println(r);
     }
 
-    public static void main(String[] args) {
+    static void show() {
         Scanner S = new Scanner(System.in);
         System.out.println("Enter the two numbers: ");
         int a = S.nextInt();
         int b = S.nextInt();
+        display(a, b);
+        S.close();
+    }
+
+    public static void main(String[] args) {
+
         try {
-            display(a, b);
+            show();
+
         } catch (ArithmeticException e) {
             System.out.println(e.getMessage());
         }
-        S.close();
     }
 }
