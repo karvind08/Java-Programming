@@ -11,7 +11,13 @@ public class Main1 {
         Thread T1 = new Thread(E1);
         Thread T2 = new Thread(E2);
         T1.start();
+        System.out.println("Thread 1");
+        try {
+            T1.join();
+        } catch (InterruptedException e) {
+            System.out.println(e.getMessage());
+        }
         T2.start();
-
+        System.out.println("main Thread Completes");
     }
 }
