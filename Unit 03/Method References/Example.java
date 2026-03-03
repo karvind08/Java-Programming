@@ -4,7 +4,7 @@ interface Interface1 {
 
 public class Example {
     public void myMethod() {
-        System.out.println("method reference in java 8");
+        System.out.println("Method reference in Java");
     }
 
     public static void main(String[] args) {
