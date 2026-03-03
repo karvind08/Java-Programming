@@ -7,6 +7,7 @@ public class Main2 {
         Example2 E = () -> {
             System.out.println("Hello");
         };
+        E.display();
     }
 
 }
