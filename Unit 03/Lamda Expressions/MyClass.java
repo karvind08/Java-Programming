@@ -13,6 +13,10 @@ public class MyClass {
       MyInter3 t = () -> {
          System.out.println("a = " + a);
       };
+      MyInter3 M1 = () -> {
+         System.out.println(" This is print");
+      };
+      M1.print();
       t.print();
    }
 
