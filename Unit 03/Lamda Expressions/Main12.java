@@ -17,5 +17,6 @@ public class Main12 {
     public static void main(String arg[]) {
         Myclass1 test = new Myclass1();
         test.show();
+        System.out.println(Myclass1.b);
     }
 }
