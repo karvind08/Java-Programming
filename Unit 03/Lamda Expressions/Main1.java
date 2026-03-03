@@ -1,4 +1,4 @@
-interface Example {
+interface Example1 {
     void display(String m);
 }
 
