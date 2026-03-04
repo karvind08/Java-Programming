@@ -5,9 +5,6 @@ public class Encoder2 {
         String str = "Arvind Kharwal";
         String encodedString = Base64.getEncoder().withoutPadding().encodeToString(str.getBytes());
         System.out.println("Encoded String(Without padding) of " + str + " is " + encodedString);
-
-        encodedString = Base64.getEncoder().encodeToString(str.getBytes());
-        System.out.println("\nEncoded String of " + str + " is " + encodedString);
     }
 
 }
