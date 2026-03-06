@@ -4,9 +4,15 @@ sealed class A permits B {
     }
 }
 
-final class B extends A {
+non-sealed class B extends A {
     void displayB() {
         System.out.println("Display in class B");
+    }
+}
+
+final class C extends B {
+    void displayC() {
+        System.out.println("Display in class C");
     }
 }
 
