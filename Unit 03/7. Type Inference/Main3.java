@@ -5,6 +5,7 @@ interface MyInt {
 class Main3 {
     public static void main(String[] args) {
         MyInt obj1 = (a, b) -> a + b;
+        System.out.println(obj1);
         // Invalid
         // var obj = (a, b) -> a + b;
     }
