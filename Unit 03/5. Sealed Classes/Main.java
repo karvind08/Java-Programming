@@ -1,21 +1,21 @@
-class A {
-    // members of class A
+sealed class A permits B {
+    void displayA() {
+        System.out.println("Display in class A");
+    }
 }
 
-class B extends A {
-    // members of class B
-}
-
-final class C extends A {
-    // members of class C
-}
-
-class D {
-    // independent class, not related to A
+final class B extends A {
+    void displayB() {
+        System.out.println("Display in class B");
+    }
 }
 
 public class Main {
     public static void main(String[] args) {
-        // test code here
+        B B1 = new B();
+        A A1 = new A();
+        A1.displayA();
+        B1.displayA();
+        B1.displayB();
     }
 }
