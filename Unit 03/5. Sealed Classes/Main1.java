@@ -44,5 +44,15 @@ final class Square extends Shape {
 }
 
 public class Main1 {
-
+    public static void main(String[] args) {
+        Circle C1 = new Circle(2);
+        double r1 = C1.area();
+        System.out.println(r1);
+        Rectangle R1 = new Rectangle(10, 2);
+        double r2 = R1.area();
+        System.out.println(r2);
+        Square S1 = new Square(2.5);
+        double r3 = S1.area();
+        System.out.println(r3);
+    }
 }
