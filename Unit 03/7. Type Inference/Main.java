@@ -3,6 +3,7 @@ public class Main {
         var a = 10;
         var b = 12.5;
         var s = "Hello";
-        System.out.println(a + "\n" + b + "\n" + s);
+        var bool = true;
+        System.out.println(a + "\n" + b + "\n" + s + "\n" + bool);
     }
 }
