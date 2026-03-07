@@ -7,7 +7,6 @@ class Example {
         this.name = name;
     }
 
-    // Getters
     public int getR() {
         return r;
     }
@@ -51,7 +50,7 @@ class Example {
 
 }
 
-public class Main1 {
+public class Main2 {
     public static void main(String[] args) {
         Example E1 = new Example(1, "Arvind");
         Example E2 = new Example(2, "Yuvaan");
