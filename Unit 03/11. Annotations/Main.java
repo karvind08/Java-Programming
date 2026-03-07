@@ -1,11 +1,12 @@
 class A {
-    void display() {
+    void displayinclasswhichisgood() {
         System.out.println("Display in class A");
     }
 }
 
 class B extends A {
-    void display() {
+    @Override
+    void displayinclasswhichisgood() {
         System.out.println("Display in class B");
     }
 }
@@ -13,6 +14,6 @@ class B extends A {
 public class Main {
     public static void main(String[] args) {
         B B1 = new B();
-        B1.display();
+        B1.displayinclasswhichisgood();
     }
 }
