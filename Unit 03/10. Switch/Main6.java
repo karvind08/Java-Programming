@@ -6,12 +6,13 @@ public class Main6 {
         System.out.println("Enter your choice");
         int ch = S.nextInt();
         String name = " ";
-        String res = switch (ch) {
+        switch (ch) {
             case 1 -> name = "Arvind";
             case 2 -> name = "Yuvaan";
             default -> name = "Advika";
-        };
-        System.out.println(res);
+        }
+        ;
+        System.out.println(name);
         S.close();
     }
 }
