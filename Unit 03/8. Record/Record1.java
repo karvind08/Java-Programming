@@ -4,10 +4,10 @@ record Person(int r, String name) {
         this(0, "");
     }
 
-    Person(int r, String name) {
-        this.r = r;
-        this.name = name;
-    }
+    // Person(int r, String name) {
+    // this.r = r;
+    // this.name = name;
+    // }
 
 }
 
