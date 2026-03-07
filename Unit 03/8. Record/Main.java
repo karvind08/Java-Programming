@@ -23,6 +23,7 @@ public class Main {
         Example E = new Example(1, "Arvind");
         System.out.println(E.getR());
         System.out.println(E.getName());
+        System.out.println(E);
 
     }
 
