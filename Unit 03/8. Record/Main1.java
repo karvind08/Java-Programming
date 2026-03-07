@@ -25,8 +25,9 @@ class Example {
 
 public class Main1 {
     public static void main(String[] args) {
-        Example E = new Example(1, "Arvind");
-
+        Example E1 = new Example(1, "Arvind");
+        Example E2 = new Example(2, "Yuvaan");
+        System.out.println(E1.equals(E2));
     }
 
 }
