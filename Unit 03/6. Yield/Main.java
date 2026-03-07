@@ -8,9 +8,9 @@ public class Main {
         switch (ch) {
             case 1:
                 System.out.println("Case 1:");
-                yield(1);
+                // yield(1);
         }
-
+        S.close();
     };
 
 }
