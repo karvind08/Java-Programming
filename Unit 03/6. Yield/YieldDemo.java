@@ -14,7 +14,7 @@ public class YieldDemo implements Runnable {
 
         YieldDemo y2 = new YieldDemo();
         // creating second thread
-        Thread t2 = new Thread(y1, "Second child thread");
+        Thread t2 = new Thread(y2, "Second child thread");
 
         // calling thread will execute run() function
         t1.start();
