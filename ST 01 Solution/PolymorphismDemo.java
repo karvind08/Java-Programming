@@ -54,7 +54,7 @@ class Rectangle extends Shape {
 public class PolymorphismDemo {
     public static void main(String[] args) {
         // Runtime polymorphism: base class reference pointing to derived objects
-        Shape shape = new Circle(5);
+        Shape shape = new Circle(2);
         System.out.println("Area of Circle: " + shape.area());
 
         Shape shape1 = new Triangle(10, 6);
