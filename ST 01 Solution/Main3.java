@@ -7,19 +7,21 @@ class InvalidMark extends Exception {
 public class Main3 {
     void grade(int[] marks) throws InvalidMark {
         int s = 0;
-        for (int i = 0; i < 5; i++)
+        for (int i : marks)
             if (i < 0 || i > 100)
                 throw new InvalidMark("Invalid Marks");
             else
-                s = s + marks[i];
+                s = s + i;
         System.out.println("Total: " + s);
-        if (s >= 90)
+        double per = s / 5.0;
+        System.out.println("Per: " + per);
+        if (per >= 90)
             System.out.println("A+");
-        else if (s > 80 && s < 90)
+        else if (per > 80 && per < 90)
             System.out.println("A");
-        else if (s > 60 && s < 79)
+        else if (per > 60 && per < 79)
             System.out.println("B");
-        else if (s > 40 && s < 59)
+        else if (per > 40 && per < 59)
             System.out.println("C");
         else
             System.out.println("Fail");
@@ -28,7 +30,7 @@ public class Main3 {
 
     public static void main(String[] args) {
         // int marks[] = new int[5];
-        int[] marks = { 70, 80, 90, 100, 67 };
+        int[] marks = { 10, 80, 90, 100, 67 };
         Main3 M = new Main3();
         try {
             M.grade(marks);
