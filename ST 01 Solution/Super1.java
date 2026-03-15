@@ -18,10 +18,12 @@ class Dog1 extends Animal1 {
     }
 
     void sound() {
+        super.sound();
         System.out.println("Dog Barks");
     }
 
     void show() {
+        System.out.println(super.type);
         System.out.println(type);
     }
 }
