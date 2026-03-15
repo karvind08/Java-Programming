@@ -1,4 +1,3 @@
-// Base class
 class Shape {
     public double area() {
         System.out.println("Area of shape is undefined.");
@@ -6,7 +5,6 @@ class Shape {
     }
 }
 
-// Derived class Circle
 class Circle extends Shape {
     private double radius;
 
@@ -56,15 +54,13 @@ class Rectangle extends Shape {
 public class PolymorphismDemo {
     public static void main(String[] args) {
         // Runtime polymorphism: base class reference pointing to derived objects
-        Shape shape;
-
-        shape = new Circle(5);
+        Shape shape = new Circle(5);
         System.out.println("Area of Circle: " + shape.area());
 
-        shape = new Triangle(10, 6);
-        System.out.println("Area of Triangle: " + shape.area());
+        Shape shape1 = new Triangle(10, 6);
+        System.out.println("Area of Triangle: " + shape1.area());
 
-        shape = new Rectangle(8, 4);
-        System.out.println("Area of Rectangle: " + shape.area());
+        Shape shape2 = new Rectangle(8, 4);
+        System.out.println("Area of Rectangle: " + shape2.area());
     }
 }
