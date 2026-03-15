@@ -25,7 +25,8 @@ class AlphaThread extends Thread {
 public class Main {
     public static void main(String[] args) {
         // Creating threads
-        Thread t1 = new Thread(new NumberRunner());
+        NumberRunner N = new NumberRunner();
+        Thread t1 = new Thread(N);
         AlphaThread t2 = new AlphaThread();
 
         // Setting priorities
