@@ -21,6 +21,12 @@ public class Multithreading {
         T1.setPriority(10);
         E1.start();
         T1.start();
-
+        try {
+            E1.join();
+            T1.join();
+        } catch (InterruptedException e) {
+            System.out.println(e.getMessage());
+        }
+        System.out.println("Both Threads finish execution");
     }
 }
