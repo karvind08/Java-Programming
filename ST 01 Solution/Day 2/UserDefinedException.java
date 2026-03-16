@@ -9,24 +9,23 @@ class InvalidMark extends Exception {
 class Student {
     void grade(int[] Marks) throws InvalidMark {
         int s = 0;
-        for (int i : Marks) {
+        for (int i : Marks)
             if (i < 0 || i > 100)
                 throw new InvalidMark("Invalid Marks");
             else
                 s = s + i;
-            System.out.println("The total marks are: " + s);
-            if (s >= 90)
-                System.out.println("A+");
-            else if (s >= 80 && s < 90)
-                System.out.println("A");
-            else if (s >= 60 && s <= 79)
-                System.out.println("B");
-            else if (s >= 40 && s < 60)
-                System.out.println("C");
-            else
-                System.out.println("Fail");
-        }
-
+        System.out.println("The total marks are: " + s);
+        double per = s / 5.0;
+        if (per >= 90)
+            System.out.println("A+");
+        else if (per >= 80 && per < 90)
+            System.out.println("A");
+        else if (per >= 60 && per <= 79)
+            System.out.println("B");
+        else if (per >= 40 && per < 60)
+            System.out.println("C");
+        else
+            System.out.println("Fail");
     }
 }
 
