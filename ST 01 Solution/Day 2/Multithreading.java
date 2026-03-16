@@ -17,8 +17,10 @@ public class Multithreading {
         Example E1 = new Example();
         Sample S1 = new Sample();
         Thread T1 = new Thread(S1);
-        // E1.start();
-        // T1.start();
+        E1.setPriority(1);
+        T1.setPriority(10);
+        E1.start();
+        T1.start();
 
     }
 }
