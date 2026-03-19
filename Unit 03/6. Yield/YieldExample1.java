@@ -9,7 +9,7 @@ public class YieldExample1 implements Runnable {
         YieldExample1 y1 = new YieldExample1();
         Thread T1 = new Thread(y1, "First Child");
         YieldExample1 y2 = new YieldExample1();
-        Thread T2 = new Thread(y1, "Second Child");
+        Thread T2 = new Thread(y2, "Second Child");
         T1.setPriority(2);
         T2.setPriority(9);
         T1.start();
