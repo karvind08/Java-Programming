@@ -17,7 +17,16 @@ public class ThreadExample {
         Example1 E1 = new Example1();
         Example2 E2 = new Example2();
         Thread T1 = new Thread(E2, "Second Thread");
+        E1.setPriority(7);
+        T1.setPriority(10);
         E1.start();
         T1.start();
+        try {
+            E1.join();
+            T1.join();
+        } catch (InterruptedException e) {
+            System.out.println(e.getMessage());
+        }
+
     }
 }
