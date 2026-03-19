@@ -1,8 +1,8 @@
 public class YieldDemo implements Runnable {
     public void run() {
         System.out.println("Started " + Thread.currentThread());
-        // calling yield() method on current thread to move it
-        // back to ready state from running state
+        // calling yield() method on current thread to move it back to ready state from
+        // running state
         Thread.yield();
         System.out.println("Ended " + Thread.currentThread());
     }

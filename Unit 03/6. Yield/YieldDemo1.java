@@ -14,7 +14,7 @@ public class YieldDemo1 implements Runnable {
 
         YieldDemo y2 = new YieldDemo();
         // creating first thread
-        Thread t2 = new Thread(y1, "Second child thread");
+        Thread t2 = new Thread(y2, "Second child thread");
 
         // assigning priority to threads
         t1.setPriority(4);
