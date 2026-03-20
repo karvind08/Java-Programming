@@ -7,6 +7,6 @@ public class Main {
         List<Integer> list = Arrays.asList(1, 2, 3, 4);
         System.out.println(list);
         Stream<Integer> data = list.stream();
-        data.forEach(n -> System.out.println(n));
+        data.forEach(n -> System.out.print(n));
     }
 }
