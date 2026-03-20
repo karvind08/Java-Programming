@@ -8,6 +8,6 @@ public class Main1 {
         Stream<Integer> data = list.stream();
         long count = data.count();
         System.out.println(count);
-        // data.forEach(n -> System.out.print(n));
+        // data.forEach(n -> System.out.print(n)); Error
     }
 }
