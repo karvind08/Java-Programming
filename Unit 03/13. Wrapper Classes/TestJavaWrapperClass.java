@@ -1,9 +1,6 @@
 class SpeedWrapperClass {
     private int speed;
 
-    SpeedWrapperClass() {
-    }
-
     SpeedWrapperClass(int speed) {
         this.speed = speed;
     }
