@@ -1,8 +1,8 @@
 public class AutoBoxingExample {
     public static void main(String args[]) {
-        char ch = 's';
+        // char ch = 's';
         // Autoboxing- primitive to Character object conversion
-        Character s = ch;
+        // Character s = ch;
         int a = 50;
         // Converting int into Integer explicitly
         Integer first = Integer.valueOf(a);
