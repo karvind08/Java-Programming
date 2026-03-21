@@ -6,6 +6,6 @@ public class Unboxing {
         System.out.println(I2.intValue());
         int num = I1; // Auto-unboxing
         System.out.println(num);
-
+        System.out.println(I2 instanceof Integer);
     }
 }
