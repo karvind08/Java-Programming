@@ -4,5 +4,8 @@ public class Unboxing {
         System.out.println(I1);
         int num = I1; // Auto-unboxing
         System.out.println(num);
+
+        Integer I2 = 30;
+        System.out.println(I2.intValue());
     }
 }
