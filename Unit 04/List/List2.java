@@ -9,7 +9,7 @@ public class List2 {
         }
         System.out.println("Array elements converted to list:");
         for (Integer element : list) {
-            System.out.println(element);
+            System.out.print(element);
         }
     }
 }
