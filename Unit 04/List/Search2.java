@@ -7,7 +7,7 @@ public class Search2 {
         words.add("banana");
         words.add("orange");
         words.add("banana");
-        int lastIndex = words.lastIndexOf("banana");
+        int lastIndex = words.lastIndexOf("Banana");
         System.out.println("The last occurrence of 'banana' is at index " + lastIndex);
     }
 }
