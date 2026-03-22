@@ -10,7 +10,7 @@ public class RemoveElement {
         System.out.println("The list is: " + list);
         list.remove(3);
         System.out.println("The Updated list is: " + list);
-        list.remove(new Integer(20)); // deprecated
-        System.out.println("The Updated list is: " + list);
+        // list.remove(new Integer(20)); // deprecated
+        // System.out.println("The Updated list is: " + list);
     }
 }
