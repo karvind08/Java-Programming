@@ -12,8 +12,8 @@ public class Main1 {
         Class1 C2 = new Class1();
         Thread T1 = new Thread(C1, "First Thread");
         Thread T2 = new Thread(C2, "Second Thread");
-        T1.setPriority(Thread.MAX_PRIORITY);
-        T2.setPriority(Thread.MIN_PRIORITY);
+        T2.setPriority(Thread.MAX_PRIORITY);
+        T1.setPriority(Thread.MIN_PRIORITY);
         T1.start();
         T2.start();
     }
