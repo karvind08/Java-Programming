@@ -4,7 +4,7 @@ interface Animal {
 
 public class FI2 implements Animal {
     public String animalname(String name) {
-        return "Hello" + name;
+        return "Hello " + name;
     }
 
     public static void main(String[] args) {
