@@ -1,6 +1,11 @@
 class Class1 implements Runnable {
     public void run() {
         System.out.println("Started " + Thread.currentThread());
+        try {
+            Thread.sleep(200);
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
         Thread.yield();
         System.out.println("Ended " + Thread.currentThread());
     }
