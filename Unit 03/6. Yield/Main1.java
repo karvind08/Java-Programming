@@ -16,5 +16,12 @@ public class Main1 {
         T1.setPriority(Thread.MIN_PRIORITY);
         T2.start();
         T1.start();
+        try {
+            T1.join();
+            T2.join();
+        } catch (InterruptedException e) {
+            System.out.println(e.getMessage());
+            e.printStackTrace();
+        }
     }
 }
