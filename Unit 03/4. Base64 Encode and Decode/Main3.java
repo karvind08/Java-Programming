@@ -5,7 +5,7 @@ public class Main3 {
         String str = "https://www.kharwal.com";
         String encodedurl = Base64.getUrlEncoder().encodeToString(str.getBytes());
         System.out.println(encodedurl);
-        byte[] decodedurlbytes = Base64.getDecoder().decode(encodedurl);
+        byte[] decodedurlbytes = Base64.getUrlDecoder().decode(encodedurl);
         String decodedurl = new String(decodedurlbytes);
         System.out.println(decodedurl);
     }
