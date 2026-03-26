@@ -23,9 +23,7 @@ public class Main1 {
     public static void main(String[] args) {
         Schedule[] S = Main1.class.getAnnotationsByType(Schedule.class);
         for (Schedule i : S) {
-            System.out.println(i.month());
-            System.out.println(i.day());
-            System.out.println(i.hour());
+            System.out.println(i.month() + " " + i.day() + " " + i.hour());
         }
     }
 }
