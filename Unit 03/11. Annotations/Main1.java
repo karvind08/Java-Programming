@@ -18,7 +18,7 @@ import java.lang.annotation.RetentionPolicy;
 }
 
 @Schedule(month = "March", day = "Thursday", hour = 10)
-
+@Schedule(month = "February", day = "Friday", hour = 2)
 public class Main1 {
     public static void main(String[] args) {
         Schedule[] S = Main1.class.getAnnotationsByType(Schedule.class);
