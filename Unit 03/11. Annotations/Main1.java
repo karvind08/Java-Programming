@@ -1,9 +1,11 @@
 
 // import java.lang.annotation.Repeatable;
+import java.lang.annotation.Repeatable;
 import java.lang.annotation.Retention;
 import java.lang.annotation.RetentionPolicy;
 
-// @Repeatable(Schedules.class)
+@Repeatable(Schedules.class)
+@Retention(RetentionPolicy.RUNTIME)
 @interface Schedule {
     String month() default "January";
 
@@ -13,11 +15,19 @@ import java.lang.annotation.RetentionPolicy;
 }
 
 @Retention(RetentionPolicy.RUNTIME)
-
 @interface Schedules {
-    // Schedules[] value();
+    Schedule[] value();
 }
 
-// public class Main1 {
+@Schedule(month = "March", day = "Thursday", hour = 10)
 
-// }
+public class Main1 {
+    public static void main(String[] args) {
+        Schedule[] S = Main1.class.getAnnotationsByType(Schedule.class);
+        for (Schedule i : S) {
+            System.out.println(i.month());
+            System.out.println(i.day());
+            System.out.println(i.hour());
+        }
+    }
+}
