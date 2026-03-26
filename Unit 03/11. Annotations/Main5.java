@@ -1,11 +1,11 @@
 class Example {
-    @Override
     void display(String name) {
         System.out.println("Display in Example" + name);
     }
 }
 
 class Sample extends Example {
+    @Override
     void display(String name) {
         System.out.println("Display in Sample " + name);
     }
