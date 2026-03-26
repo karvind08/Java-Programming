@@ -17,6 +17,9 @@ import java.lang.annotation.RetentionPolicy;
 
 @Employee1(name = "Arvind", salary = 1000)
 @Employee1(name = "Yuvaan", salary = 5000)
+@Employee1(name = "Jiya", salary = 30000)
+@Employee1(name = "Kashu", salary = 20000)
+
 public class Main4 {
     public static void main(String[] args) {
         Employee1[] E1 = Main4.class.getAnnotationsByType(Employee1.class);
