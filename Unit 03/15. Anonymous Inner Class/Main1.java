@@ -12,7 +12,7 @@ class B extends A {
 
 public class Main1 {
     public static void main(String[] args) {
-        B B1 = new B();
-        B1.display();
+        A A1 = new B();
+        A1.display();
     }
 }
