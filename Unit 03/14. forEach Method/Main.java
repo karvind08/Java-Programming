@@ -6,7 +6,7 @@ public class Main {
         List<Integer> list = Arrays.asList(1, 2, 3, 4, 5);
         Consumer<Integer> Obj = new Consumer<Integer>() {
             public void accept(Integer n) {
-                System.out.println(n);
+                System.out.print(n);
             }
         };
         list.forEach(Obj);
