@@ -16,5 +16,7 @@ public class Inner {
     public static void main(String[] args) {
         Test T1 = new Test();
         T1.show();
+        Test.InnerTest T2 = T1.new InnerTest();
+        T2.display();
     }
 }
