@@ -4,15 +4,13 @@ class A {
     }
 }
 
-class B extends A {
-    void display() {
-        System.out.println("Display in B");
-    }
-}
-
 public class Main1 {
     public static void main(String[] args) {
-        A A1 = new B();
+        A A1 = new A() {
+            void display() {
+                System.out.println("New Display");
+            }
+        };
         A1.display();
     }
 }
