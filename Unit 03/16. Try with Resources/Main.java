@@ -6,6 +6,7 @@ public class Main {
         System.out.println("Enter the number: ");
         int a = S.nextInt();
         System.out.println(a);
+        S.close();
     }
 
 }
