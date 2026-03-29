@@ -9,8 +9,8 @@ public class Main4 {
                 return a + b;
             }
         };
-        // System.out.println(T1.display(10, 20));
-        double r = T1.display(2.5, 3.5);
-        System.out.println(r);
+        System.out.println(T1.display(10.5, 20.1));
+        // double r = T1.display(2.5, 3.5);
+        // System.out.println(r);
     }
 }
