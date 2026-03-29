@@ -1,0 +1,2 @@
+Hello, Java Programmers, 
+We are learning try with resources. 
