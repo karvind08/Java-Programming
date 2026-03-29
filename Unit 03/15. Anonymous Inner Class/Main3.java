@@ -9,6 +9,8 @@ public class Main3 {
                 return a + b;
             }
         };
-        System.out.println(T1.display(10, 20));
+        // System.out.println(T1.display(10, 20));
+        int r = T1.display(2, 3);
+        System.out.println(r);
     }
 }
