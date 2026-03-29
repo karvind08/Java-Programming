@@ -9,6 +9,7 @@ public class Main0 {
             System.out.println("Enter the number: ");
             int a = S.nextInt();
             System.out.println(a);
+            System.out.println("Demo.txt file content");
             byte[] b = FIS.readAllBytes();
             String str = new String(b);
             System.out.println(str);
