@@ -8,7 +8,7 @@ public class Stream5 {
                 .sorted(Comparator.reverseOrder())
                 .collect(Collectors.toList());
 
-        System.out.println("\nThe sorted numbers are: ");
+        System.out.println("\nThe numbers in reverse sorted order are: ");
         res.forEach(n -> System.out.print(n + " "));
         System.out.println("\nOriginal List");
         list.forEach(n -> System.out.print(n + " "));
