@@ -1,5 +1,5 @@
 interface Inter3 {
-    Class3 display();
+    void display();
 }
 
 class Class3 {
