@@ -14,7 +14,7 @@ class Class2 {
     }
 
     void show() {
-        System.out.println("The value of a" + a);
+        System.out.println("The value of a: " + a);
     }
 }
 
