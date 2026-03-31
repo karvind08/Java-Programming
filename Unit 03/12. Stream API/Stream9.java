@@ -1,3 +1,14 @@
-public class Stream9 {
+import java.util.*;
 
+public class Stream9 {
+    public static void main(String[] args) {
+        List<Integer> list = Arrays.asList(1, 7, 3, 8, 2);
+        int r = list.stream()
+                .filter(n -> n % 2 != 0)
+                .reduce(0, (n, i) -> n + i);
+
+        System.out.println("\nThe sum is: " + r);
+        System.out.println("\nOriginal List");
+        list.forEach(n -> System.out.print(n + " "));
+    }
 }
