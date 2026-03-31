@@ -7,6 +7,8 @@ public class Stream3 {
         List<Integer> res = list.stream()
                 .filter(n -> n % 2 == 0)
                 .collect(Collectors.toList());
+
+        System.out.println("\nThe even numbers are: ");
         res.forEach(n -> System.out.print(n + " "));
         System.out.println("\nOrinial List");
         list.forEach(n -> System.out.print(n + " "));
