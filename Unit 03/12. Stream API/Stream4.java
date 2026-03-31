@@ -8,7 +8,7 @@ public class Stream4 {
                 .sorted()
                 .collect(Collectors.toList());
 
-        System.out.println("\nThe even numbers are: ");
+        System.out.println("\nThe sorted numbers are: ");
         res.forEach(n -> System.out.print(n + " "));
         System.out.println("\nOriginal List");
         list.forEach(n -> System.out.print(n + " "));
