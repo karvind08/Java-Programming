@@ -22,7 +22,7 @@ class Classic {
 
 public class MethodCal {
     public static void main(String[] args) {
-        Calc C1 = Classic::div;
+        Calc C1 = Classic::mul;
         double res = C1.display(20, 4);
         System.out.println(res);
     }
