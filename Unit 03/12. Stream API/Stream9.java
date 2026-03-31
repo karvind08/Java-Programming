@@ -8,7 +8,7 @@ public class Stream9 {
                 .reduce(0, (n, i) -> n + i);
 
         System.out.println("\nThe sum is: " + r);
-        System.out.println("\nOriginal List");
+        System.out.print("\nOriginal List");
         list.forEach(n -> System.out.print(n + " "));
     }
 }
