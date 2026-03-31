@@ -9,7 +9,7 @@ public class Stream7 {
                 .sorted(Comparator.reverseOrder())
                 .collect(Collectors.toList());
 
-        System.out.println("\nThe odd numbers in sorted order are: ");
+        System.out.println("\nThe odd numbers in reverse sorted order are: ");
         res.forEach(n -> System.out.print(n + " "));
         System.out.println("\nOriginal List");
         list.forEach(n -> System.out.print(n + " "));
