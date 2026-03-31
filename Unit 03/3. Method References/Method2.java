@@ -5,10 +5,6 @@ interface Inter2 {
 class Class2 {
     int a;
 
-    Class2() {
-        this.a = 0;
-    }
-
     Class2(int a) {
         this.a = a;
     }
