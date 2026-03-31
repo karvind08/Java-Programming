@@ -21,7 +21,8 @@ class Class2 {
 public class Method2 {
     public static void main(String[] args) {
         Inter2 I1 = Class2::new; // now matches no-arg constructor
-        I1.display();
+        Class2 C2 = I1.display();
+        C2.show();
 
     }
 }
