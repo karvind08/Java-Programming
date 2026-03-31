@@ -4,6 +4,10 @@ import java.util.stream.Collectors;
 
 public class Iterate1 {
     public static void main(String[] args) {
-        List<Integer> list = list.forEach(n -> System.out.print(n + " "));
+        List<String> list = Stream.generate(() -> "Arvind")
+                .limit(10)
+                .collect(Collectors.toList());
+
+        list.forEach(n -> System.out.print(n + " "));
     }
 }
