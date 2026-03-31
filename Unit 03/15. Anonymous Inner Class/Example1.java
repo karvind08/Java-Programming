@@ -9,6 +9,8 @@ public class Example1 {
                 return a + b;
             }
         };
-        System.out.println(D1.display(10, 20));
+        // System.out.println(D1.display(10, 20));
+        int a = D1.display(10, 60);
+        System.out.println(a);
     }
 }
