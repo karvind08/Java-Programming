@@ -4,7 +4,7 @@ import java.util.Scanner;
 public class TWR4 {
     public static void main(String[] args) {
         try (Scanner S = new Scanner(System.in);
-                FileInputStream FIS = new FileInputStream("demo1.txt")) {
+                FileInputStream FIS = new FileInputStream("demo.txt")) {
             System.out.println("Enter the number: ");
             int n = S.nextInt();
             System.out.println("The number is " + n);
