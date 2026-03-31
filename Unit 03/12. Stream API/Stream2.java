@@ -8,6 +8,7 @@ public class Stream2 {
                 .map(n -> n * 2)
                 .collect(Collectors.toList());
         res.forEach(n -> System.out.print(n + " "));
+        System.out.println("\nOrinial List");
         list.forEach(n -> System.out.print(n + " "));
     }
 }
