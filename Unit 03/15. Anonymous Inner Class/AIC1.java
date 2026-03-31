@@ -12,7 +12,7 @@ class Child1 extends Inner1 {
 
 public class AIC1 {
     public static void main(String[] args) {
-        Inner1 C1 = new Child1();
+        Inner1 C1 = new Inner1();
         C1.display();
     }
 }
