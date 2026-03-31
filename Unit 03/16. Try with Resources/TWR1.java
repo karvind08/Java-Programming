@@ -1,3 +1,10 @@
-public class TWR1 {
+import java.util.Scanner;
 
+public class TWR1 {
+    public static void main(String[] args) {
+        Scanner S = new Scanner(System.in);
+        System.out.println("Enter the Number: ");
+        int a = S.nextInt();
+        System.out.println("The number is " + a);
+    }
 }
