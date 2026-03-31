@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class TWR23 {
+public class TWR3 {
     public static void main(String[] args) {
         try (Scanner S = new Scanner(System.in);) {
             System.out.println("Enter the Number: ");
