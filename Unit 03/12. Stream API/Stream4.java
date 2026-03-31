@@ -5,7 +5,7 @@ public class Stream4 {
     public static void main(String[] args) {
         List<Integer> list = Arrays.asList(1, 7, 3, 8, 2);
         List<Integer> res = list.stream()
-                .filter(n -> n % 2 == 0)
+                .sorted()
                 .collect(Collectors.toList());
 
         System.out.println("\nThe even numbers are: ");
