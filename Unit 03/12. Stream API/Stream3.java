@@ -10,7 +10,7 @@ public class Stream3 {
 
         System.out.println("\nThe even numbers are: ");
         res.forEach(n -> System.out.print(n + " "));
-        System.out.println("\nOrinial List");
+        System.out.println("\nOriginal List");
         list.forEach(n -> System.out.print(n + " "));
     }
 }
