@@ -7,6 +7,6 @@ public class Iterate {
         List<Integer> list = Stream.iterate(1, i -> i + 1)
                 .limit(10)
                 .collect(Collectors.toList());
-        list.forEach(n -> System.out.println(n + " "));
+        list.forEach(n -> System.out.print(n + " "));
     }
 }
