@@ -10,7 +10,10 @@ public class Example1 {
             }
         };
         // System.out.println(D1.display(10, 20));
-        int a = D1.display(10, 60);
-        System.out.println(a);
+        // int a = D1.display(10, 60);
+        // System.out.println(a);
+        Integer A = D1.display(10, 30);
+        System.out.println(A);
+
     }
 }
