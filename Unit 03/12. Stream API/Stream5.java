@@ -1,3 +1,16 @@
-public class Stream5 {
+import java.util.*;
+import java.util.stream.Collectors;
 
+public class Stream5 {
+    public static void main(String[] args) {
+        List<Integer> list = Arrays.asList(1, 7, 3, 8, 2);
+        List<Integer> res = list.stream()
+                .sorted(Comparator.reverseOrder())
+                .collect(Collectors.toList());
+
+        System.out.println("\nThe sorted numbers are: ");
+        res.forEach(n -> System.out.print(n + " "));
+        System.out.println("\nOriginal List");
+        list.forEach(n -> System.out.print(n + " "));
+    }
 }
