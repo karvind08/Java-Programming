@@ -7,7 +7,6 @@ public class Stream2 {
         List<Integer> res = list.stream()
                 .map(n -> n * 2)
                 .collect(Collectors.toList());
-        System.out.println();
         res.forEach(n -> System.out.print(n + " "));
     }
 }
