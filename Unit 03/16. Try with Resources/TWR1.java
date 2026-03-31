@@ -6,5 +6,6 @@ public class TWR1 {
         System.out.println("Enter the Number: ");
         int a = S.nextInt();
         System.out.println("The number is " + a);
+        S.close();
     }
 }
