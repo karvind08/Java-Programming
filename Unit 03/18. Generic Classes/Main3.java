@@ -11,5 +11,8 @@ class Outer1 {
 }
 
 public class Main3 {
-
+    public static void main(String[] args) {
+        Outer1 A = new Outer1();
+        A.display();
+    }
 }
