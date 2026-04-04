@@ -13,6 +13,9 @@ public class Example<T> {
         Example<String> E1 = new Example<>();
         E1.getdata("Arvind");
         System.out.println(E1.display());
+        Example<Integer> E2 = new Example<>();
+        E2.getdata(10);
+        System.out.println(E2.display());
     }
 
 }
