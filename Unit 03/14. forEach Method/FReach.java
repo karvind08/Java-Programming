@@ -6,7 +6,7 @@ public class FReach {
         List<Integer> list = Arrays.asList(1, 2, 3, 4, 5);
         Consumer<Integer> C1 = new Consumer<>() {
             public void accept(Integer n) {
-                System.out.print(n);
+                System.out.print(n + " ");
             }
         };
         list.forEach(C1);
