@@ -14,5 +14,7 @@ public class Main3 {
     public static void main(String[] args) {
         Outer1 A = new Outer1();
         A.display();
+        Outer1.Inner1 B = new Outer1.Inner1();
+        B.show();
     }
 }
