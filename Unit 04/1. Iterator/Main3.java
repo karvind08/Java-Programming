@@ -10,6 +10,7 @@ public class Main3 {
         colors.add("Black");
         colors.add("White");
         Iterator<String> I1 = colors.iterator();
+        System.out.println(colors);
         while (I1.hasNext()) {
             System.out.println(I1.next());
         }
