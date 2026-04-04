@@ -5,7 +5,7 @@ sealed class Test1 permits User1 {
 }
 
 non-sealed class User1 extends Test1 {
-    void display() {
+    void user() {
         System.out.println("Display in Example");
     }
 
@@ -23,7 +23,16 @@ class Example extends User1 {
 
 public class Seal1 {
     public static void main(String[] args) {
+        Test1 T1 = new Test1();
+        T1.display();
         User1 U1 = new User1();
         U1.display();
+        U1.user();
+        U1.show();
+        Example E1 = new Example();
+        E1.visible();
+        E1.display();
+        E1.user();
+        E1.show();
     }
 }
