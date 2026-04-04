@@ -30,6 +30,7 @@ public class Seal1 {
         U1.user();
         U1.show();
         Example E1 = new Example();
+        System.out.println("Example Class");
         E1.visible();
         E1.display();
         E1.user();
