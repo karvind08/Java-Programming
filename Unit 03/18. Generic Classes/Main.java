@@ -18,5 +18,8 @@ public class Main {
         Example1<String> name = new Example1<>();
         name.inputdata("Arvind", "Kharwal");
         name.display();
+        Example1<Integer> data1 = new Example1<>();
+        data1.inputdata(10, 20);
+        data1.display();
     }
 }
