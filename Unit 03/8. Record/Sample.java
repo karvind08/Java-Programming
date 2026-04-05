@@ -23,4 +23,8 @@ class Employee {
 }
 
 public class Sample {
+    public static void main(String[] args) {
+        Employee E1 = new Employee(1, "Arvind");
+        System.out.println(E1);
+    }
 }
