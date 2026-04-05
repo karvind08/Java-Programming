@@ -8,6 +8,6 @@ public class Main {
         System.out.println(list);
         Stream<Integer> data = list.stream();
         data.forEach(n -> System.out.print(n));
-        // data.forEach(n -> System.out.print(n));
+        data.forEach(n -> System.out.print(n));
     }
 }
