@@ -26,5 +26,7 @@ public class Sample {
     public static void main(String[] args) {
         Employee E1 = new Employee(1, "Arvind");
         System.out.println(E1);
+        System.out.println(E1.getEid());
+        System.out.println(E1.getName());
     }
 }
