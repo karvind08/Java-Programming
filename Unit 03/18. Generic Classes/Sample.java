@@ -16,5 +16,7 @@ public class Sample {
     public static void main(String[] args) {
         SampleExample<Integer> S = new SampleExample<>(10, 20);
         S.display();
+        SampleExample<String> S1 = new SampleExample<>("Hello", "Java");
+        S1.display();
     }
 }
