@@ -3,7 +3,7 @@ import java.util.stream.Stream;
 
 public class Main {
     public static void main(String[] args) {
-        List<Integer> list = Arrays.asList(1, 22, -3, 4, 15);
+        List<Integer> list = Arrays.asList(1, 2, -3, 4, 5);
         System.out.println("List: " + list);
         Stream<Integer> S = list.stream();
         Stream<Integer> S1 = S.map(n -> n * n);
