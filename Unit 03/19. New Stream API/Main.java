@@ -6,7 +6,7 @@ public class Main {
         List<Integer> list = Arrays.asList(1, 22, -3, 4, 15);
         System.out.println("List: " + list);
         Stream<Integer> S = list.stream();
-        Stream<Integer> S1 = S.sorted();
+        Stream<Integer> S1 = S.map(n -> n * n);
         S1.forEach(n -> System.out.println(n));
     }
 }
