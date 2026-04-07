@@ -5,5 +5,6 @@ public class Main1 {
         List<Integer> list = Arrays.asList(1, 2, -3, 4, 5);
         System.out.println("List: " + list);
         list.stream().map(n -> n * n).forEach(n -> System.out.println(n));
+        list.forEach(n -> System.out.println(n));
     }
 }
