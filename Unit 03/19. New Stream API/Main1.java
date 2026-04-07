@@ -6,7 +6,8 @@ public class Main1 {
         System.out.println("List: " + list);
         list.stream()
                 .map(n -> n * n)
-                .forEach(n -> System.out.println(n + " "));
+                .forEach(n -> System.out.print(n + " "));
+        System.out.println("");
         list.forEach(n -> System.out.print(n + " "));
     }
 }
