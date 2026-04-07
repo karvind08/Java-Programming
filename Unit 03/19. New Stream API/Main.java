@@ -7,5 +7,6 @@ public class Main {
         System.out.println("List: " + list);
         Stream<Integer> S = list.stream();
         S.forEach(n -> System.out.print(n + " "));
+        S.forEach(n -> System.out.print(n + " "));
     }
 }
