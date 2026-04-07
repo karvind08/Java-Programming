@@ -9,6 +9,9 @@ public class Main2 {
         List<Integer> res = list.stream()
                 .map(n -> n * n)
                 .collect(Collectors.toList());
+        // List<Integer> res = list.stream()
+        // .map(n -> n * n)
+        // .collect(Collectors.toList());
         System.out.println(res);
     }
 }
