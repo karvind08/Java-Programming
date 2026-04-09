@@ -8,6 +8,5 @@ public class Filter1 {
                 .filter(n -> n % 2 == 0)
                 .reduce(0, (n, i) -> n + i);
         System.out.println(res);
-
     }
 }
