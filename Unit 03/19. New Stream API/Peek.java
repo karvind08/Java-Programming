@@ -10,6 +10,6 @@ public class Peek {
                 .peek(name -> System.out.println("Filtered: " + name))
                 .map(String::toUpperCase)
                 .peek(name -> System.out.println("Mapped: " + name))
-                .forEach(System.out::println);
+                .forEach(n -> System.out.println(n));
     }
 }

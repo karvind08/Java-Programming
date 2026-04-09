@@ -5,7 +5,8 @@ public class Alpha2 {
         List<String> names = Arrays.asList("Arvind", "Yuvaan", "Amit", "Jiya");
         Optional<String> res = names.stream()
                 .filter(name -> name.startsWith("A"))
-                .findAny();
+                .findAny()
+                .map(name -> name.toUpperCase());
 
         System.out.println(res.get());
     }
