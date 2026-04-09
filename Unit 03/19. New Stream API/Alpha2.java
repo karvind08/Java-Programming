@@ -7,6 +7,6 @@ public class Alpha2 {
                 .filter(name -> name.startsWith("A"))
                 .findAny();
 
-        System.out.println(res);
+        System.out.println(res.get());
     }
 }
