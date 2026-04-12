@@ -9,7 +9,7 @@ public class Main4 {
         Q1.add("Java");
         System.out.println(Q1);
         System.out.println("Head using peek: " + Q1.peek());
-        System.out.println("Head using peek: " + Q1.element());
+        System.out.println("Head using element: " + Q1.element());
         System.out.println("After operations: " + Q1);
     }
 }
