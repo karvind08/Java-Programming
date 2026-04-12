@@ -1,4 +1,3 @@
-import java.util.Iterator;
 import java.util.LinkedList;
 import java.util.Queue;
 
@@ -9,9 +8,6 @@ public class Main6 {
         Q1.add("C++");
         Q1.add("Java");
         System.out.println(Q1);
-        System.out.println(Q1.size());
-        Iterator<String> itr = Q1.iterator();
-        while (itr.hasNext())
-            System.out.println(itr.next());
+        System.out.println("The number of elements are: " + Q1.size());
     }
 }
