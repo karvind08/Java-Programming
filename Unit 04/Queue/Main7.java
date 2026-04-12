@@ -8,5 +8,6 @@ public class Main7 {
         Q1.add("C++");
         Q1.add("Java");
         System.out.println(Q1);
+        System.out.println(Q1.isEmpty());
     }
 }
