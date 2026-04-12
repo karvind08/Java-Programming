@@ -9,7 +9,7 @@ public class Main5 {
         Q1.add("C++");
         Q1.add("Java");
         System.out.println(Q1);
-        Iterator<String> itr = new Iterator<>();
+        Iterator<String> itr = Q1.iterator();
         while (itr.hasNext())
             System.out.println(itr.next());
     }
