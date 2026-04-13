@@ -15,7 +15,7 @@ public class Main2 {
         set1.containsAll(set2);
         System.out.println("Subset: " + set1);
         set2.containsAll(set1);
-        System.out.println("Intersection: " + set2);
+        System.out.println("Subset: " + set2);
 
     }
 }
