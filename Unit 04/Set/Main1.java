@@ -12,9 +12,9 @@ public class Main1 {
         set2.add(2);
         System.out.println("Set2: " + set2);
         // Union of two sets
-        set1.addAll(set2);
+        set1.retainAll(set2);
         System.out.println("Union is: " + set1);
-        set2.addAll(set1);
+        set2.retainAll(set1);
         System.out.println("Union is: " + set2);
 
     }
