@@ -6,8 +6,8 @@ public class Manual {
         Spliterator<Integer> spl1 = list.spliterator();
         Spliterator<Integer> spl2 = spl1.trySplit(); // split into two parts
         System.out.println("First half:");
-        spl1.forEachRemaining(n -> System.out.println(n));
-        System.out.println("Second half:");
-        spl2.forEachRemaining(n -> System.out.println(n));
+        spl1.forEachRemaining(n -> System.out.print(n));
+        System.out.println("\nSecond half:");
+        spl2.forEachRemaining(n -> System.out.print(n));
     }
 }
