@@ -9,6 +9,7 @@ public class Main4 {
         list.add(30);
         System.out.println(list);
         Spliterator<Integer> sit = list.spliterator();
+        sit.tryAdvance(System.out::println);
 
     }
 }
