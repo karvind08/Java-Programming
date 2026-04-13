@@ -1,6 +1,6 @@
 import java.util.*;
 
-public class SubsetCheck {
+public class Main2 {
     public static void main(String[] args) {
         Set<Integer> y = new HashSet<>();
         y.add(10);
