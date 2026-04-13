@@ -1,5 +1,4 @@
-import java.util.ArrayList;
-import java.util.Spliterator;
+import java.util.*;
 
 public class Main4 {
     public static void main(String[] args) {
