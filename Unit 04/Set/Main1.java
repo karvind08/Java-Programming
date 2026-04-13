@@ -13,9 +13,9 @@ public class Main1 {
         System.out.println("Set2: " + set2);
         // Union of two sets
         set1.retainAll(set2);
-        System.out.println("Union is: " + set1);
+        System.out.println("Intersection is: " + set1);
         set2.retainAll(set1);
-        System.out.println("Union is: " + set2);
+        System.out.println("Intersection: " + set2);
 
     }
 }
