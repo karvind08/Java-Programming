@@ -8,8 +8,8 @@ public class Main5 {
         list.add(30);
         System.out.println(list);
         Spliterator<Integer> sit = list.spliterator();
-        sit.tryAdvance(System.out::println);
+        sit.tryAdvance(n -> System.out.println(n));
         System.out.println("Remaining data: ");
-        sit.forEachRemaining(System.out::println);
+        sit.forEachRemaining(n -> System.out.println(n));
     }
 }
