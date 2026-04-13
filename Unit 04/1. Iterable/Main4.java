@@ -10,6 +10,6 @@ public class Main4 {
         System.out.println(list);
         Spliterator<Integer> sit = list.spliterator();
         sit.tryAdvance(System.out::println);
-
+        sit.forEachRemaining(System.out::println);
     }
 }
