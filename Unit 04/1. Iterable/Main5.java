@@ -6,7 +6,6 @@ public class Main5 {
         list.add(10);
         list.add(20);
         list.add(30);
-        System.out.println(list);
         Spliterator<Integer> sit = list.spliterator();
         sit.tryAdvance(n -> System.out.println(n));
         System.out.println("Remaining data: ");
