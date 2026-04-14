@@ -16,7 +16,8 @@ class Employee2 implements Comparable<Employee2> {
     @Override
     public int compareTo(Employee2 E) {
         // Compare names lexicographically
-        return this.name.compareTo(E.name);
+        // return this.name.compareTo(E.name);
+        return name.compareTo(E.name);
     }
 }
 
