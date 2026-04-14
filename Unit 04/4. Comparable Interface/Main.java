@@ -21,7 +21,7 @@ public class Main {
         list.add(new Employee(12, "Yuvaan", 20000));
         list.add(new Employee(1, "Jiya`", 30000));
         for (Employee e : list) {
-            System.out.println(e);
+            System.out.println(e.eid + " " + e.name + " " + e.sal);
         }
     }
 }
