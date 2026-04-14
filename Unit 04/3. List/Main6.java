@@ -11,4 +11,4 @@ public class Main6 {
         System.out.println(list.indexOf(1));
         System.out.println(list.lastIndexOf(1));
     }
-}
+} 
