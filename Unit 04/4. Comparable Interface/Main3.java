@@ -11,6 +11,6 @@ public class Main3 {
         list.add(3);
         list.add(6);
         Collections.sort(list);
-        System.out.println(list);
+        System.out.println("The sorted list: " + list);
     }
 }
