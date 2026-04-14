@@ -29,7 +29,7 @@ public class Main1 {
         list.add(new Student1(9, 30, "Sandeep"));
         Collections.sort(list, new SortbyAge());
         for (Student1 i : list) {
-            System.out.println(i.r + " " + i.name);
+            System.out.println(i.r + " " + i.age + " " + i.name);
         }
 
     }
