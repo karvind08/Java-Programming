@@ -26,6 +26,7 @@ public class Main10 {
             System.out.println(s);
         }
         list.remove(0);
+        System.out.println("After deletion:");
         list.forEach(n -> System.out.println(n));
     }
 }
