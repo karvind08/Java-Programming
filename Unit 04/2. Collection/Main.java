@@ -8,7 +8,8 @@ public class Main {
         list.add(20);
         list.add(30);
         list.add(40);
-        for (Integer i : list)
-            System.out.println(i);
+        // for (Integer i : list)
+        // System.out.println(i);
+        list.forEach(n -> System.out.println(n));
     }
 }
