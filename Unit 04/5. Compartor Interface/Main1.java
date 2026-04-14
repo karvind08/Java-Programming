@@ -20,6 +20,12 @@ class SortbyAge implements Comparator<Student1> {
     }
 }
 
+class SortbyName implements Comparator<Student1> {
+    public int compare(Student1 S1, Student1 S2) {
+        return S1.name.compareTo(S2.name);
+    }
+}
+
 public class Main1 {
     public static void main(String[] args) {
         List<Student1> list = new ArrayList<>();
@@ -27,7 +33,7 @@ public class Main1 {
         list.add(new Student1(4, 22, "Arvind"));
         list.add(new Student1(10, 18, "Chandu"));
         list.add(new Student1(9, 30, "Sandeep"));
-        Collections.sort(list, new SortbyAge());
+        Collections.sort(list, new SortbyName());
         for (Student1 i : list) {
             System.out.println(i.r + " " + i.age + " " + i.name);
         }
