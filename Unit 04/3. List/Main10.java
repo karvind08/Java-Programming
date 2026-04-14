@@ -1,3 +1,6 @@
+import java.util.ArrayList;
+import java.util.List;
+
 class Student {
     int r;
     String name;
@@ -30,6 +33,9 @@ class Student {
 
 public class Main10 {
     public static void main(String[] args) {
-        
+        List<Student> list = new ArrayList<>();
+        list.add(new Student(1, "Arvind", 5.8d));
+        list.add(new Student(2, "Yuvaan", 2.5d));
+        System.out.println(list);
     }
 }
