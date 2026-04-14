@@ -12,6 +12,6 @@ public class Main2 {
             System.out.println(i);
         list.clear();
         System.out.println("After clear");
-        list.forEach(n -> System.out.println(n));
+        System.out.println(list);
     }
 }
