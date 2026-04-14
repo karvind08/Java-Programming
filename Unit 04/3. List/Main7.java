@@ -10,5 +10,6 @@ public class Main7 {
         list.add(1);
         int ind = list.get(1);
         System.out.println(ind);
+        System.out.println(list.get(2));
     }
 }
