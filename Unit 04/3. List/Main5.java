@@ -11,5 +11,7 @@ public class Main5 {
         System.out.println(list);
         list.set(0, 1000);
         System.out.println("The updated List: " + list);
+        list.set(2, 30);
+        System.out.println("The updated List: " + list);
     }
 }
