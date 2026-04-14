@@ -25,6 +25,7 @@ public class Main10 {
         for (Student s : list) {
             System.out.println(s);
         }
-
+        list.remove(0);
+        list.forEach(n -> System.out.println(n));
     }
 }
