@@ -8,6 +8,8 @@ public class Main5 {
         list.add(1);
         list.add(100);
         list.add(20);
-
+        System.out.println(list);
+        list.set(0, 1000);
+        System.out.println("The updated List: " + list);
     }
 }
