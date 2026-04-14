@@ -11,7 +11,9 @@ public class Main10 {
         list.add(50);
         Spliterator<Integer> SP1 = list.spliterator();
         Spliterator<Integer> SP2 = SP1.trySplit();
+        System.out.println("First: ");
         SP1.tryAdvance(System.out::println);
+        System.out.println("First Remaining: ");
         SP1.forEachRemaining(n -> System.out.print(n + " "));
         SP2.tryAdvance(System.out::println);
         System.out.println("\nSecond Half: ");
