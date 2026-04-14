@@ -12,7 +12,7 @@ public class Main1 {
         for (Integer i : list)
             System.out.println(i);
         list.remove(10);
-        // list.forEach(n -> System.out.println(n));
+        System.out.println("After removal");
         Iterator<Integer> I1 = list.iterator();
         while (I1.hasNext()) {
             System.out.println(I1.next());
