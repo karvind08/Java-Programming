@@ -9,5 +9,6 @@ public class Main6 {
         list.add(100);
         list.add(20);
         System.out.println(list.indexOf(1));
+        System.out.println(list.lastIndexOf(1));
     }
 }
