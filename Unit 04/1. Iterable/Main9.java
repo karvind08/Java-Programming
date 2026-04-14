@@ -12,6 +12,6 @@ public class Main9 {
         Spliterator<Integer> SI = list.spliterator();
         SI.tryAdvance(n -> System.out.println(n));
         System.out.println("Remaining: ");
-        SI.forEachRemaining(n -> System.out.println(n));
+        SI.forEachRemaining(n -> System.out.print(n + " "));
     }
 }
