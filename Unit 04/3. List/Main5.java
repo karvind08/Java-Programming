@@ -9,9 +9,7 @@ public class Main5 {
         list.add(100);
         list.add(20);
         System.out.println(list);
-        list.set(0, 1000);
-        System.out.println("The updated List: " + list);
-        list.set(2, 30);
+        list.set(4, 30);
         System.out.println("The updated List: " + list);
     }
 }
