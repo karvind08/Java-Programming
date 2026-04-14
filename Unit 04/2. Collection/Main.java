@@ -1,5 +1,6 @@
 import java.util.ArrayList;
 import java.util.Collection;
+import java.util.Iterator;
 
 public class Main {
     public static void main(String[] args) {
@@ -10,6 +11,10 @@ public class Main {
         list.add(40);
         // for (Integer i : list)
         // System.out.println(i);
-        list.forEach(n -> System.out.println(n));
+        // list.forEach(n -> System.out.println(n));
+        Iterator<Integer> I1 = list.iterator();
+        while (I1.hasNext()) {
+            System.out.println(I1.next());
+        }
     }
 }
