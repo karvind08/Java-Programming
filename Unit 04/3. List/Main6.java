@@ -8,5 +8,6 @@ public class Main6 {
         list.add(1);
         list.add(100);
         list.add(20);
+        System.out.println(list.indexOf(1));
     }
 }
