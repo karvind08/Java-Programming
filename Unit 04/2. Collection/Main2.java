@@ -1,6 +1,5 @@
 import java.util.ArrayList;
 import java.util.Collection;
-import java.util.Iterator;
 
 public class Main2 {
     public static void main(String[] args) {
@@ -13,9 +12,6 @@ public class Main2 {
             System.out.println(i);
         list.clear();
         System.out.println("After clear");
-        Iterator<Integer> I1 = list.iterator();
-        while (I1.hasNext()) {
-            System.out.println(I1.next());
-        }
+        list.forEach(n -> System.out.println(n));
     }
 }
