@@ -15,6 +15,7 @@ public class Main10 {
         SP1.tryAdvance(System.out::println);
         System.out.println("First Remaining: ");
         SP1.forEachRemaining(n -> System.out.print(n + " "));
+        System.out.println("\nSecond: ");
         SP2.tryAdvance(System.out::println);
         System.out.println("\nSecond Half: ");
         SP2.forEachRemaining(n -> System.out.print(n + " "));
