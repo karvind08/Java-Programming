@@ -10,5 +10,6 @@ public class Main9 {
         list.add(1);
         System.out.println(list.size());
         System.out.println(list.contains(0));
+        System.out.println(list.hashCode());
     }
 }
