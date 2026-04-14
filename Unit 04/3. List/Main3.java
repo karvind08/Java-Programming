@@ -7,5 +7,8 @@ public class Main3 {
         list.add(2);
         list.add(5);
         list.add(3);
+        System.out.println(list);
+        Collections.sort(list);
+        System.out.println("The sorted list" + list);
     }
 }
