@@ -10,6 +10,6 @@ public class Main {
         list.add(40);
         list.add(50);
         list.add(null);
-        list.forEach(System.out::print);
+        list.forEach(System.out::println);
     }
 }
