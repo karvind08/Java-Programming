@@ -15,5 +15,11 @@ public class Main3 {
             System.out.println("List is empty");
         else
             System.out.println("List is not empty");
+        list.clear();
+        boolean res1 = list.isEmpty();
+        if (res1 == true)
+            System.out.println("List is empty");
+        else
+            System.out.println("List is not empty");
     }
 }
