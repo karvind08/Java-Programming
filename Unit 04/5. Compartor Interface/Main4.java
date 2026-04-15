@@ -35,8 +35,8 @@ public class Main4 {
         list.add(new Student4(10, 18, "Chandu"));
         list.add(new Student4(9, 30, "Sandeep"));
         list.sort(
-                Comparator.comparing(Student4::getName)
-                        .thenComparingInt(Student4::getAge));
+                Comparator.comparingInt(Student4::getAge)
+                        .thenComparing(Student4::getName));
 
         for (Student4 i : list) {
             System.out.println(i.r + " " + i.age + " " + i.name);
