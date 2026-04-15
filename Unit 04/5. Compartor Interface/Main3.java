@@ -21,7 +21,6 @@ public class Main3 {
         list.add(new Student3(4, 22, "Arvind"));
         list.add(new Student3(10, 18, "Chandu"));
         list.add(new Student3(9, 30, "Sandeep"));
-        // Collections.sort(list, (S1, S2) -> S2.age - S1.age);
         list.sort(Comparator.comparing(s -> s.name));
         for (Student3 i : list) {
             System.out.println(i.r + " " + i.age + " " + i.name);
