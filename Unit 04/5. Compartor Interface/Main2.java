@@ -14,7 +14,7 @@ class Student2 {
     }
 }
 
-public class Main1 {
+public class Main2 {
     public static void main(String[] args) {
         List<Student1> list = new ArrayList<>();
         list.add(new Student1(1, 10, "Bhanu"));
