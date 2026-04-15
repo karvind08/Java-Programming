@@ -12,6 +12,19 @@ class Student4 {
         this.name = name;
         this.age = age;
     }
+
+    public String getName() {
+        return name;
+    }
+
+    public int getAge() {
+        return age;
+    }
+
+    public int getR() {
+        return r;
+    }
+
 }
 
 public class Main4 {
@@ -22,8 +35,9 @@ public class Main4 {
         list.add(new Student4(10, 18, "Chandu"));
         list.add(new Student4(9, 30, "Sandeep"));
         list.sort(
-                Comparator.comparing(Student4::getname)
-                        .thenComparingInt(Student4::getage));
+                Comparator.comparing(Student4::getName)
+                        .thenComparingInt(Student4::getAge));
+
         for (Student4 i : list) {
             System.out.println(i.r + " " + i.age + " " + i.name);
         }
