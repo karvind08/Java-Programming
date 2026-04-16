@@ -7,6 +7,7 @@ public class Main {
         list.add(23);
         list.add(2);
         list.sort(Comparator.naturalOrder());
+        list.sort(Comparator.reverseOrder());
         System.out.println(list);
         // Collections.sort(list);
 
