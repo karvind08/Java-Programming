@@ -7,7 +7,7 @@ public class Main1 {
         list.add(23);
         list.add(2);
         System.out.println("original list: " + list);
-        Collections.sort(list, Comparator.reverseOrder());
+        list.sort(Comparator.reverseOrder());
         System.out.println("Reverse Sorted List: " + list);
     }
 }
