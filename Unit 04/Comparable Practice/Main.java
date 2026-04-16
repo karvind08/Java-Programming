@@ -22,8 +22,13 @@ class Employee implements Comparable<Employee> {
     // return -1;
     // }
 
+    // public int compareTo(Employee E) {
+    // return E.sal - this.sal;
+    // }
+
     public int compareTo(Employee E) {
-        return E.sal - this.sal;
+        // return this.name.compareTo(E.name);
+        return name.compareTo(E.name);
     }
 }
 
