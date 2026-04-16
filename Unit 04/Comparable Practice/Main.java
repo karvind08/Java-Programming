@@ -5,9 +5,9 @@ import java.util.*;
 class Employee implements Comparable<Employee> {
     int eid;
     String name;
-    double sal;
+    int sal;
 
-    Employee(int eid, String name, double sal) {
+    Employee(int eid, String name, int sal) {
         this.eid = eid;
         this.name = name;
         this.sal = sal;
@@ -23,7 +23,7 @@ class Employee implements Comparable<Employee> {
     // }
 
     public int compareTo(Employee E) {
-        return this.eid - E.eid;
+        return this.sal - E.sal;
     }
 }
 
