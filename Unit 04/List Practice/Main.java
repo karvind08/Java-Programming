@@ -6,10 +6,8 @@ public class Main {
         list.add(12);
         list.add(23);
         list.add(2);
-        list.sort(Comparator.naturalOrder());
-        list.sort(Comparator.reverseOrder());
+        Collections.sort(list);
         System.out.println(list);
-        // Collections.sort(list);
 
     }
 }
