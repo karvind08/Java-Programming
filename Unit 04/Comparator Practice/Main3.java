@@ -25,8 +25,8 @@ public class Main3 {
         list.add(new Student1(3, "Bob"));
         list.add(new Student1(9, "Arvind"));
         list.add(new Student1(30, "Yuvaan"));
-        list.sort(Comparator.comparingInt(Student1::getR)
-                .thenComparing(Student1::getName));
+        list.sort(Comparator.comparing(Student1::getR)
+                .thenComparingInt(Student1::getR));
         for (Student1 s : list) {
             System.out.println(s.r + " " + s.name);
         }
