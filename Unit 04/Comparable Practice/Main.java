@@ -23,7 +23,7 @@ class Employee implements Comparable<Employee> {
     // }
 
     public int compareTo(Employee E) {
-        return this.sal - E.sal;
+        return E.sal - this.sal;
     }
 }
 
