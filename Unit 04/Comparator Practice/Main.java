@@ -20,8 +20,8 @@ public class Main {
     public static void main(String[] args) {
         List<Student> list = new ArrayList<>();
         list.add(new Student(4, "Bhavya"));
-        list.add(new Student(4, "Chavya"));
-        list.add(new Student(4, "Arvind"));
+        list.add(new Student(3, "Chavya"));
+        list.add(new Student(1, "Arvind"));
         Collections.sort(list, new SortbyRoll());
         for (Student s : list) {
             System.out.println(s.roll + " " + s.name);
