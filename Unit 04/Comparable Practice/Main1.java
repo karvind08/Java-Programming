@@ -18,7 +18,8 @@ public class Main1 {
         list.add(new Employee1(6, "Arvind", 50000));
         list.add(new Employee1(12, "Yuvaan", 20000));
         list.add(new Employee1(1, "Jiya", 30000));
-        Collections.sort(list, (S1, S2) -> Integer.compare(S1.eid, S2.eid));
+        // Collections.sort(list, (S1, S2) -> Integer.compare(S1.eid, S2.eid));
+        Collections.sort(list, (S1, S2) -> S1.name.compareTo(S2.name));
         for (Employee1 e : list) {
             System.out.println(e.eid + " " + e.name + " " + e.sal);
         }
