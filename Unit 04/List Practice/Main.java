@@ -6,8 +6,8 @@ public class Main {
         list.add(12);
         list.add(23);
         list.add(2);
+        System.out.println("original list: " + list);
         list.sort(Comparator.naturalOrder());
         System.out.println("Sorted List: " + list);
-
     }
 }
