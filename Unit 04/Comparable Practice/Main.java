@@ -32,7 +32,7 @@ public class Main {
         List<Employee> list = new ArrayList<>();
         list.add(new Employee(6, "Arvind", 50000));
         list.add(new Employee(12, "Yuvaan", 20000));
-        list.add(new Employee(1, "Jiya`", 30000));
+        list.add(new Employee(1, "Jiya", 30000));
         Collections.sort(list);
         for (Employee e : list) {
             System.out.println(e.eid + " " + e.name + " " + e.sal);
