@@ -1,3 +1,5 @@
+import java.util.*;
+
 class Student {
     int roll;
     String name;
@@ -16,6 +18,14 @@ class SortbyRoll implements Comparator<Student> {
 
 public class Main {
     public static void main(String[] args) {
+        List<Student> list = new ArrayList<>();
+        list.add(new Student(4, "Bhavya"));
+        list.add(new Student(4, "Chavya"));
+        list.add(new Student(4, "Arvind"));
+        Collections.sort(list, new SortbyRoll());
+        for (Student s : list) {
+            System.out.println(s.roll + " " + s.name);
+        }
 
     }
 }
