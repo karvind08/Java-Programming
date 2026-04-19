@@ -19,6 +19,7 @@ public class Comp {
         list.add(new Student3(2, "Abhishek", 71.54));
         list.add(new Student3(42, "Priyashil", 69.54));
         list.add(new Student3(9, "Arvind", 64.50));
+        // list.sort(Comparator.comparingInt(S -> S.age));
         list.sort(Comparator.comparingInt(S -> S.age));
         for (Student3 i : list) {
             System.out.println(i.age + " " + i.name + " " + i.marks);
