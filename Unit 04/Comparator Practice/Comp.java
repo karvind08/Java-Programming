@@ -30,7 +30,7 @@ public class Comp {
         List<Student3> list = new ArrayList<>();
         list.add(new Student3(2, "Abhishek", 71.54));
         list.add(new Student3(42, "Priyashil", 69.54));
-        list.add(new Student3(9, "Arvind", 64.50));
+        list.add(new Student3(9, "Chandra", 64.50));
         // list.sort(Comparator.comparingInt(S -> S.age));
         // list.sort(Comparator.comparing(S -> S.name));
         list.sort(Comparator.comparing(Student3::getAge)
