@@ -20,7 +20,8 @@ public class Comp {
         list.add(new Student3(42, "Priyashil", 69.54));
         list.add(new Student3(9, "Arvind", 64.50));
         // list.sort(Comparator.comparingInt(S -> S.age));
-        list.sort(Comparator.comparing(S -> S.name));
+        // list.sort(Comparator.comparing(S -> S.name));
+        list.sort(Comparator.comparingDouble(S -> S.marks));
         for (Student3 i : list) {
             System.out.println(i.age + " " + i.name + " " + i.marks);
         }
