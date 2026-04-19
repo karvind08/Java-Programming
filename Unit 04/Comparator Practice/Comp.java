@@ -11,6 +11,18 @@ class Student3 {
         this.marks = marks;
     }
 
+    public int getAge() {
+        return age;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public double getMarks() {
+        return marks;
+    }
+
 }
 
 public class Comp {
@@ -21,8 +33,9 @@ public class Comp {
         list.add(new Student3(9, "Arvind", 64.50));
         // list.sort(Comparator.comparingInt(S -> S.age));
         // list.sort(Comparator.comparing(S -> S.name));
-        // 
-        
+        list.sort(Comparator.comparing(Student3::getAge)
+                .thenComparing(Student3::getName));
+
         for (Student3 i : list) {
             System.out.println(i.age + " " + i.name + " " + i.marks);
         }
