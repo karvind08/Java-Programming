@@ -7,6 +7,7 @@ public class Main {
         hs.add(10);
         hs.add(20);
         hs.add(null);
+        hs.add(null);
         System.out.println(hs);
     }
 }
