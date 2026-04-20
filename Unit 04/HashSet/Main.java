@@ -9,5 +9,7 @@ public class Main {
         hs.add(null);
         hs.add(null);
         System.out.println(hs);
+        System.out.println(hs.contains(10));
+
     }
 }
